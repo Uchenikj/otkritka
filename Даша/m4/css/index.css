@@ -1,0 +1,38 @@
+
+.main {
+    background-color: rgba(135, 95, 214, 0.76);
+    }
+
+.item {
+    width:  200px;
+    margin: 10px  ;
+    height: fit-content;
+}
+
+#item1 {
+background-color: rgb(12%, 34%, 67%);
+}
+
+ #item2 {
+ background-color: #8e2;
+ }
+
+ #item3 {
+     background-color: hsla(12, 45%, 45%, 0.95);
+ }
+
+ .container {
+     margin: 10px;
+     border: steelblue 2px solid;
+
+     /* выровнять в одну строчку  */
+     display: flex;
+
+     /* для того, чтобы выровнять с правой стороны */
+     /* flex-direction: row-reverse; */
+     flex-direction: row;
+     justify-content: flex-start;
+     height: 400px;
+     align-items: center;
+
+ }
